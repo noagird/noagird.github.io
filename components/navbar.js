@@ -47,10 +47,10 @@ class NavBar extends HTMLElement {
       <nav>
         <ul>
           <li><a id="home" href="./">Home</a></li>
-          <li><a id="about-me" href="about-me.html">About Me</a></li>
+          <li><a id="about-me" href="about-me">About Me</a></li>
           <img src="Assets/Final_Logo-Solo-Edited.png" height="100%" style="margin: 0 50px; aspect-ratio: 1/1;">
-          <li><a id="projects" href="projects.html">Projects</a></li>
-          <li><a id="social" href="social.html">Social</a></li>
+          <li><a id="projects" href="projects">Projects</a></li>
+          <li><a id="social" href="social">Social</a></li>
         </ul>
       </nav>
     </header>
