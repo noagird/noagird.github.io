@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  --primary-color: #121212;
+  --accent-color: #49F4BA;
+  --text-color: #ffffff;
+}
+
+body {
+  font-family: 'Montserrat';
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+  background-color: var(--primary-color);
+}
+
+.current {
+  color: var(--accent-color);
+}
