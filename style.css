@@ -14,7 +14,7 @@ body {
 
 body {
   font-family: 'Montserrat';
-  font-size: 22px;
+  font-size: 24px;
   display: flex;
   flex-direction: column;
 }
@@ -25,12 +25,12 @@ main {
 }
 
 .current {
-  color: var(--accent-color);
+  color: var(--accent-color) !important;
 }
 
 #main-vid {
-  margin: 3% auto;
-  width: 65%;
+  margin: 0 auto 0 auto;
+  width: 720px;
 }
 
 .vid {
@@ -54,4 +54,10 @@ main {
   padding: 0;
   overflow: hidden;
   width: 100%;
+}
+
+#section {
+  color: var(--text-color);
+  text-align: center;
+  margin: 50px 0px 20px 0px;
 }

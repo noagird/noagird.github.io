@@ -47,9 +47,9 @@ class NavBar extends HTMLElement {
         <ul id="navbar-links-list">
           <li><a id="home" href="./">Home</a></li>
           <li><a id="about-me" href="about-me">About Me</a></li>
-          <img src="Assets/Final_Logo-Solo-Edited.png" height="100%" style="margin: 0 50px; aspect-ratio: 1/1;">
+          <a id="logo" href="./"><img src="Assets/Final_Logo-Solo-Edited.png" height="75px" style="margin: 0 50px; aspect-ratio: 1/1;"></a>
           <li><a id="projects" href="projects">Projects</a></li>
-          <li><a id="social" href="social">Social</a></li>
+          <li><a id="resume" href="resume">Résumé</a></li>
         </ul>
       </nav>
     </header>
@@ -61,7 +61,7 @@ customElements.define('navbar-component', NavBar);
 
 let current = 0;
 for (var i = 0; i < document.links.length; i++) {
-  if (document.links[i].href === document.URL) {
+  if (document.links[i].href === document.URL && document.links[i].id !== "logo") {
     current = i;
   }
 }
