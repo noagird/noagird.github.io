@@ -27,3 +27,31 @@ main {
 .current {
   color: var(--accent-color);
 }
+
+#main-vid {
+  margin: 3% auto;
+  width: 65%;
+}
+
+.vid {
+  display: block;
+  border: 5px solid var(--text-color);
+  border-radius: 25px;
+  aspect-ratio: 16/9;
+}
+
+.small-vid {
+  width: 400px;
+  margin: 0px 20px 50px 20px;
+}
+
+#small-vids {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+}
