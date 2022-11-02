@@ -27,7 +27,7 @@ class NavBar extends HTMLElement {
 
       #navbar-links-list > li {
         display: inline-block;
-        padding: 50% 75px;
+        padding: 50% 5%;
       }
       
       #navbar-links-list > li > a {
@@ -47,7 +47,7 @@ class NavBar extends HTMLElement {
         <ul id="navbar-links-list">
           <li><a id="home" href="./">Home</a></li>
           <li><a id="about-me" href="about-me">About Me</a></li>
-          <a id="logo" href="./"><img src="Assets/Final_Logo-Solo-Edited.png" height="75px" style="margin: 0 50px; aspect-ratio: 1/1;"></a>
+          <a id="logo" href="./"><img src="Assets/Final_Logo-Solo-Edited.png" height="75px" style="aspect-ratio: 1/1;"></a>
           <li><a id="projects" href="projects">Projects</a></li>
           <li><a id="resume" href="resume">Résumé</a></li>
         </ul>

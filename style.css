@@ -14,7 +14,7 @@ body {
 
 body {
   font-family: 'Montserrat';
-  font-size: 24px;
+  font-size: clamp(16px, 1.25vw, 24px);
   display: flex;
   flex-direction: column;
 }
@@ -60,4 +60,82 @@ main {
   color: var(--text-color);
   text-align: center;
   margin: 50px 0px 20px 0px;
+}
+
+#about-portrait {
+  border: 5px solid var(--text-color);
+  border-radius: 25px;
+  margin: 5px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#about-portrait-container {
+  aspect-ratio: 2/3;
+  min-height: 200px;
+  max-height: 600px;
+  height: 90%;
+  position: relative;
+  margin-right: 10px;
+}
+
+#about-me-main-container {
+  height: 75%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#about-text {
+  text-align: center;
+  width: 500px;
+  position: relative;
+  display: block;
+  margin-left: 10px;
+}
+
+#about-name {
+  color: var(--text-color);
+  position: relative;
+  top: 25px;
+}
+
+#logo {
+  margin: 0 5%;
+}
+
+#bio {
+  display: inline-block;
+  position: relative;
+  top: 10%;
+  color: var(--text-color);
+  font-size: clamp(12px, 1vw, 20px);
+}
+
+.icon {
+  width: 32px;
+  aspect-ratio: 1/1;
+}
+
+#social-media-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+#social-media-icons {
+  position: relative;
+  top: 150px;
+  display: flex;
+  margin-top: 10px;
+}
+
+.social-media-icon {
+  padding: 0 2%;
 }
