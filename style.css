@@ -148,3 +148,52 @@ main {
   box-sizing: border-box;
   border-radius: 25px;
 }
+
+#projects-container {
+  overflow: hidden;
+  width: 750px;
+  margin: 0 auto;
+}
+
+.project {
+  width: 750px;
+  margin: 5% 0;
+  height: 250px;
+}
+
+.project-title {
+  width: 100%;
+  margin-bottom: 5%;
+  text-align: center;
+  position: relative;
+  color: var(--text-color);
+  font-size: clamp(16px, 24px, 32px);
+}
+
+.project-desc {
+  position: relative;
+  width: 100%;
+  color: var(--text-color);
+  font-size: clamp(12px, 1vw, 20px);
+}
+
+.project-img {
+  width: 100%;
+  height: 100%;
+  border: 5px solid var(--text-color);
+  border-radius: 25px;
+}
+
+.project-left {
+  width: 47.5%;
+  height: 100%;
+  margin-right: 2.5%;
+  float: left;
+}
+
+.project-right {
+  width: 47.5%;
+  height: 100%;
+  margin-left: 2.5%;
+  float: left;
+}
