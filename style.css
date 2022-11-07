@@ -139,3 +139,12 @@ main {
 .social-media-icon {
   padding: 0 2%;
 }
+
+#resume-viewer {
+  margin: 5% 0 0 0;
+  width: 50%;
+  aspect-ratio: 16/9;
+  border: 5px solid var(--text-color);
+  box-sizing: border-box;
+  border-radius: 25px;
+}

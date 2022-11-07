@@ -45,11 +45,11 @@ class NavBar extends HTMLElement {
     <header>
       <nav>
         <ul id="navbar-links-list">
-          <li><a id="home" href="./">Home</a></li>
-          <li><a id="about-me" href="about-me">About Me</a></li>
+          <li><a id="home" href="./">Demo Reel</a></li>
+          <li><a id="about-me" href="about">About</a></li>
           <a id="logo" href="./"><img src="Assets/Final_Logo-Solo-Edited.png" height="75px" style="aspect-ratio: 1/1;"></a>
           <li><a id="projects" href="projects">Projects</a></li>
-          <li><a id="resume" href="resume">Résumé</a></li>
+          <li><a id="resume" href="resume">Resume</a></li>
         </ul>
       </nav>
     </header>
