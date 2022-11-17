@@ -5,43 +5,6 @@ class NavBar extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
-    <style>
-      nav {
-        display: flex;
-        background-color:  #242424;
-        width: 100%;
-        height: 75px;
-        filter: drop-shadow(0px 5px 5px var(--accent-color) );
-      }
-
-      #navbar-links-list {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        width: 100%;
-      }
-
-      #navbar-links-list > li {
-        display: inline-block;
-        padding: 50% 5%;
-      }
-      
-      #navbar-links-list > li > a {
-        float: left;
-        font-weight: 700;
-        color: var(--text-color);
-        text-decoration: none;
-      }
-      
-      #navbar-links-list > li > a:hover {
-        transition: color 0.25s linear;
-        color: var(--accent-color);
-      }
-    </style>
     <header>
       <nav>
         <ul id="navbar-links-list">
